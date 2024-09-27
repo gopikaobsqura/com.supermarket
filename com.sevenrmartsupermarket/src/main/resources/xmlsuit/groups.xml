@@ -11,7 +11,7 @@
 		</groups>
 		<classes>
 			<class name="com.sevenrmartsupermarket.tests.LoginTest"></class>
-			<class name="com.sevenrmartsupermarket.tests.AdminTest"></class>
+			
 </classes>
 </test>
 	</suite>

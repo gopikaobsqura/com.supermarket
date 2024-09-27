@@ -61,7 +61,7 @@ public class LogInPage {
 	  EnterPassward(password);
 	  ClickOnSignInButton();
   }
-
+public void verifyInvalidCredentials() {
   
-
+}
 }

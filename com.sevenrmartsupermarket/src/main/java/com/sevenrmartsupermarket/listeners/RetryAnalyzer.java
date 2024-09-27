@@ -7,9 +7,8 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 
 	int counter = 0;
 	int retryLimit = 2;
-
 	
-	public boolean retry(ITestResult result) {
+	public boolean retry(ITestResult result) {//retry failed testcase
 
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			return false;
